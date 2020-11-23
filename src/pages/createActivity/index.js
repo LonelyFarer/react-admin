@@ -1,6 +1,6 @@
 import React from 'react'
 import { Row } from 'antd'
-import './index.less'
+import './createActivity.less'
 
 class index extends React.Component {
   constructor (props) {
@@ -11,9 +11,9 @@ class index extends React.Component {
   }
   render () {
     return (
-      <Row className="not-match" justify="center">
-        not-match
-      </Row>
+      <div className="createActivity">
+        createActivity
+      </div>
     )
   }
 }

@@ -241,7 +241,7 @@ const menuList = [
 	},
 	{
 		title: "追溯起源",
-		key: "/admin/publish_articles",
+		key: "/admin/history",
 	},
 	{
 		title: "日漫",
@@ -287,11 +287,11 @@ const menuList = [
 	},
 	{
 		title: "周边手办",
-		key: "/admin/manage_download",
+		key: "/admin/periphery",
 	},
 	{
 		title: "创作活动",
-		key: "/admin/activities",
+		key: "/admin/createActivity",
 	},
 	{
 		title: "用户中心",

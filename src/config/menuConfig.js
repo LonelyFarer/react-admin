@@ -5,7 +5,7 @@ const menuList = [
   },
   {
     title: "追溯起源",
-    key: "/admin/publish_articles"
+    key: "/admin/history"
   },
   {
     title: "日漫",
@@ -13,19 +13,19 @@ const menuList = [
     children: [
       {
         title: "经典动漫",
-        key: "/admin/manage_blog/manage_articles"
+        key: "/admin/manage_blog/classic"
       },
       {
         title: "热血",
-        key: "/admin/manage_blog/manage_comment"
+        key: "/admin/manage_blog/warmBlood"
       },
       {
         title: "校园",
-        key: "/admin/manage_blog/manage_column"
+        key: "/admin/manage_blog/campus"
       },
       {
         title: "魔法",
-        key: "/admin/manage_blog/subscribe_column"
+        key: "/admin/manage_blog/magic"
       },
     ]
   },
@@ -35,37 +35,37 @@ const menuList = [
     children: [
       {
         title: "经典动漫",
-        key: "/admin/manage_blog/manage_articles"
+        key: "/admin/statistics/classic"
       },
       {
         title: "热血",
-        key: "/admin/manage_blog/manage_comment"
+        key: "/admin/statistics/warmBlood"
       },
       {
         title: "校园",
-        key: "/admin/manage_blog/manage_column"
+        key: "/admin/statistics/campus"
       },
       {
         title: "魔法",
-        key: "/admin/manage_blog/subscribe_column"
+        key: "/admin/statistics/magic"
       },
     ]
   },
   {
     title: "周边手办",
-    key: "/admin/manage_download"
+    key: "/admin/periphery"
   },
   {
     title: "创作活动",
-    key: "/admin/activities"
+    key: "/admin/createActivity"
   },
   {
     title: "用户中心",
-    key: "/admin/user_info"
+    key: "/admin/user"
   },
   {
     title: "留言中心",
-    key: "/admin/manage_user"
+    key: "/admin/leavingMessage"
   },
   {
     title: "图表数据",

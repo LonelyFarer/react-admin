@@ -11,9 +11,9 @@ class index extends React.Component {
   }
   render () {
     return (
-      <Row className="not-match" justify="center">
-        not-match
-      </Row>
+      <div className="leavingMessage">
+        leavingMessage
+      </div>
     )
   }
 }

@@ -24,21 +24,22 @@ class Admin extends React.Component {
 
   render () {
     return (
-      <Row className="container">
+      <div className="container">
         <Header />
-        <Row className="main">
+        <div className="main">
 
-          <Col span={4} className="nav-left">
+          <div className="nav-left">
             <NavLeft />
-          </Col>
-          <Col span={20} className="content" justify="center">
+          </div>
+          <div className="content" justify="center">
             <BreadCrumb />
-            {this.props.children}
-          </Col>
+            <div className="mainContent">{this.props.children}</div>
+            <div className="footer"><Fonter /></div>
+          </div>
 
-          <Fonter />
-        </Row>
-      </Row>
+
+        </div>
+      </div>
     )
   }
 }

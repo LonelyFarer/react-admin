@@ -11,7 +11,19 @@ import Pie from './pages/echarts/pie'
 import Line from './pages/echarts/line'
 import Rich from './pages/rich'
 import Permission from './pages/permission'
+import LeavingMessage from './pages/leavingMessage'
+import Periphery from './pages/periphery'
+import CreateActivity from './pages/createActivity'
+import History from './pages/history'
+import Classic from './pages/jpAnime/classic'
+import Campus from './pages/jpAnime/campus'
+import WarmBlood from './pages/jpAnime/warmBlood'
+import Magic from './pages/jpAnime/magic'
 
+import Cnclassic from './pages/cnAnime/classic'
+import Cncampus from './pages/cnAnime/campus'
+import CnwarmBlood from './pages/cnAnime/warmBlood'
+import Cnmagic from './pages/cnAnime/magic'
 class IRouter extends React.Component {
   constructor (props) {
     super(props)
@@ -32,9 +44,48 @@ class IRouter extends React.Component {
                 <Route path="/admin/home">
                   <Home />
                 </Route>
-                <Route path="/admin/manage_user">
+                <Route path="/admin/user">
                   <User />
                 </Route>
+                <Route path="/admin/periphery">
+                  <Periphery />
+                </Route>
+                <Route path="/admin/createActivity">
+                  <CreateActivity />
+                </Route>
+                <Route path="/admin/history">
+                  <History />
+                </Route>
+                <Route path="/admin/leavingMessage">
+                  <LeavingMessage />
+                </Route>
+
+                <Route path="/admin/manage_blog/classic">
+                  <Classic />
+                </Route>
+                <Route path="/admin/manage_blog/magic">
+                  <Magic />
+                </Route>
+                <Route path="/admin/manage_blog/campus">
+                  <Campus />
+                </Route>
+                <Route path="/admin/manage_blog/warmBlood">
+                  <WarmBlood />
+                </Route>
+
+                <Route path="/admin/statistics/classic">
+                  <Cnclassic />
+                </Route>
+                <Route path="/admin/statistics/magic">
+                  <Cnmagic />
+                </Route>
+                <Route path="/admin/statistics/campus">
+                  <Cncampus />
+                </Route>
+                <Route path="/admin/statistics/warmBlood">
+                  <CnwarmBlood />
+                </Route>
+
                 <Route path="/admin/manage_echarts/bar">
                   <Bar />
                 </Route>
